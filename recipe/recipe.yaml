@@ -1,5 +1,5 @@
 context:
-  version: "0.3.1"
+  version: "0.3.2"
 
 package:
   name: zerobrew
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/lucasgelfond/zerobrew/archive/v${{ version }}.tar.gz
-  sha256: e35b4f20a04866e67c553e2467f9f57e254b67ada1a2e53c74aa9fbf174f5a3d
+  sha256: 696fb9028a4b553fe87eb58af81f44f0676312e07ed89be78fc0886f1f3127a5
 
 build:
-  number: 1
+  number: 0
   skip:
     - win
   script:
