@@ -1,5 +1,5 @@
 context:
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: zerobrew
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lucasgelfond/zerobrew/archive/v${{ version }}.tar.gz
-  sha256: 6a4707445597e56eaf4010e2bfec3266c2e465e39fc13f44cb3ffdf451f844e6
+  sha256: caf2388bd79b6ece192b117f7c08051c347eba72fd5245d6e01fb2b871af9c61
 
 build:
   number: 0
@@ -37,6 +37,7 @@ tests:
       strict: true
       bin:
         - zb
+        - zb-brew
         - zbx
 
 about:
