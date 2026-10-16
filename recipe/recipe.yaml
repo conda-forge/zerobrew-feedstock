@@ -37,6 +37,7 @@ tests:
       strict: true
       bin:
         - zb
+        - zb-brew
         - zbx
 
 about:
